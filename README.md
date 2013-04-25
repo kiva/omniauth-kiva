@@ -24,7 +24,8 @@ Or install it yourself as:
 ## Usage
 Once you install the gem, you need to add these in your config files.
 
-Example for Rails-3+ config/initializers/omniauth.rb
+Example for Rails-3+ `config/initializers/omniauth.rb`
+
 	require 'omniauth-oauth'
 	Rails.application.config.middleware.use OmniAuth::Builder do
 	  provider :kiva, "client_id", "client_secret", :scope => 'access', :redirect_url => "callback_url"
