@@ -10,7 +10,8 @@ Add this line to your application's Gemfile:
     gem 'omniauth-kiva'
 
 You can get latest HEAD version directly from github e.g.:
-	gem 'omniauth-kiva', :git => "kiva/omniauth-kiva"
+
+	gem 'omniauth-kiva', :github => "kiva/omniauth-kiva"
 
 And then execute:
 
